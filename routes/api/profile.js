@@ -241,6 +241,7 @@ router.put(
 
 router.delete('/experience/:exp_id', auth, async (req, res) => {
   try {
+    {
       //const foundProfile = await Profile.findOneAndUpdate( { user: req.user.id },
 			//  { $pull: { experience: { _id: req.params.exp_id }}},
 			//  {new: true});
